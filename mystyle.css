@@ -1,0 +1,195 @@
+body{
+	 margin: 0;
+	 box-sizing: border-box;
+ }
+ .row{
+ 	clear: both;
+ }
+ .col_md_1, .col_md_2, .col_md_3, .col_md_4, .col_md_5,
+ .col_md_6, .col_md_7, .col_md_8, .col_md_9, .col_md_10,
+ .col_md_4_main, .col_md_6_main{
+	 float: left;
+ }
+ .col_md_1{
+	 width: 10%;
+ }
+ .col_md_2{
+	 width: 20%;
+ }
+ .col_md_3{
+	 width: 30%;
+ }
+ .col_md_4{
+	 width: 40%;
+ }
+ .col_md_5{
+	 width: 50%;
+ }
+ .col_md_6{
+	 width: 60%;
+ }
+ .col_md_7{
+	 width: 70%;
+ }
+ .col_md_8{
+	 width: 80%;
+ }
+ .col_md_9{
+	 width: 90%;
+ }
+ .col_md_10{
+	 width: 100%;
+ }
+ .col_md_offset_10{
+	 margin-left: 10%;
+ }
+ .col_md_offset_20{
+	 margin-left: 20%;
+ }
+ .col_md_offset_30{
+	 margin-left: 30%;
+ }
+ .col_md_offset_40{
+	 margin-left: 40%;
+ }
+ .col_md_offset_50{
+	 margin-left: 50%;
+ }
+ .col_md_offset_60{
+	 margin-left: 60%;
+ }
+ .col_md_offset_70{
+	 margin-left: 70%;
+ }
+ .col_md_offset_80{
+	 margin-left: 80%;
+ }
+ .col_md_offset_90{
+	 margin-left: 90%;
+ }
+ .col_md_offset_100{
+	 margin-left: 100%;
+ }
+ .col_md_4_main{
+	 width: 40%;
+ }
+ .col_md_6_main{
+	 width: 60%;
+ }
+
+ @media (max-width: 500px) {
+			.col_md_6_main{
+			 	width: 100%;
+		 	}
+		 	.col_md_4_main{
+			 	width: 100%;
+		 	}
+ }
+ 
+ .contenido{
+	margin: 20px;
+	padding: 10px;
+	border-width: 60px;
+	border-color: #aaaaaa;
+	border-style: solid;
+	height: 100%;
+	float: left;
+ }
+ .foto{
+	text-align: center;	
+ }
+ img{
+ 	max-width: 150px;
+ 	border-radius: 50%;
+ 	margin-top: -60px;
+ 	border-color: #aaaaaa;
+ 	background-color: #aaaaaa;
+ 	border-style: solid;
+ 	border-width: 8px;
+ }
+ h1{
+ 	text-align: center;
+ 	font-family: 'Cairo', sans-serif;
+ 	font-size: 30px;
+ }
+ h2{
+ 	padding-left: 10px;
+ 	color: red;
+ 	font-family: 'Cairo', sans-serif;
+ 	font-size: 20px;
+ }
+ p{
+ 	padding-left: 10px;
+ 	font-family: 'Cairo', sans-serif;
+ 	font-size: 10px;
+ }
+ h1 span{
+ 	color: red;
+ }
+ hr{
+ 	margin: 2px;
+ }
+.globo p{
+	background-color: #dddddd;
+	margin-left: 5px;
+	padding: 2px;
+} 
+.item_edu span{
+ 	font-weight: bolder; 
+ 	font-size: 12px;
+ }
+.item_exp span{
+ 	font-weight: bolder; 
+ 	font-size: 12px;
+ }
+ .footer{
+ 	margin: 0px;
+ 	padding-right: 2px;
+ 	text-align: right;
+ }
+ .skill_bars{
+ 	margin-left: 5px;
+ }
+ .bar{
+ 	background-color: #EE1111;
+ 	color: white;
+ 	padding: 0px;
+ 	margin: 5px;
+ }
+ .bar p{
+ 	margin: 0px;
+ }
+ .contacto{
+ 	font-family: 'Cairo', sans-serif;
+ 	font-size: 10px;
+ }
+ .contacto span{
+ 	font-weight: bolder; 
+ 	font-size: 12px;
+ }
+ .checked {
+    color: #EE1111;
+}
+.star{
+	text-align: right;
+	margin: 0;
+	color: grey;
+
+}
+.idioma p{
+	margin: 0;
+	color: black;
+}
+.col_right hr{
+ 	margin-left: 10px;
+ 	color: red;
+ }
+ .hobbies p{
+	padding: 3px;
+	color: white;
+	background-color: #881111;
+	display: inline;
+	font-family: 'Cairo', sans-serif;
+ 	font-size: 10px;
+ 	margin-left: 10px;
+}
