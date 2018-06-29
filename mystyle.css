@@ -77,19 +77,10 @@ body{
 	 width: 60%;
  }
 
- @media (max-width: 500px) {
-			.col_md_6_main{
-			 	width: 100%;
-		 	}
-		 	.col_md_4_main{
-			 	width: 100%;
-		 	}
- }
- 
  .contenido{
-	margin: 20px;
-	padding: 10px;
-	border-width: 60px;
+	margin: 1vw;
+	padding: 2vw;
+	border-width: 7vw;
 	border-color: #aaaaaa;
 	border-style: solid;
 	height: 100%;
@@ -99,7 +90,8 @@ body{
 	text-align: center;	
  }
  img{
- 	max-width: 150px;
+ 	max-width: 15%;
+ 	max-height: 2%;
  	border-radius: 50%;
  	margin-top: -60px;
  	border-color: #aaaaaa;
@@ -113,13 +105,13 @@ body{
  	font-size: 30px;
  }
  h2{
- 	padding-left: 10px;
+ 	padding-left: 1%;
  	color: red;
  	font-family: 'Cairo', sans-serif;
  	font-size: 20px;
  }
  p{
- 	padding-left: 10px;
+ 	padding-left: 2px;
  	font-family: 'Cairo', sans-serif;
  	font-size: 10px;
  }
@@ -127,24 +119,26 @@ body{
  	color: red;
  }
  hr{
- 	margin: 2px;
+ 	margin: 0,5%;
  }
 .globo p{
 	background-color: #dddddd;
-	margin-left: 5px;
-	padding: 2px;
+	margin-left: 2%;
+	padding: 2%;
 } 
 .item_edu span{
  	font-weight: bolder; 
  	font-size: 12px;
+ 	padding-left: 1%;
  }
 .item_exp span{
  	font-weight: bolder; 
  	font-size: 12px;
+ 	padding-left: 1%;
  }
  .footer{
  	margin: 0px;
- 	padding-right: 2px;
+ 	padding-right: 0,5%;
  	text-align: right;
  }
  .skill_bars{
@@ -181,7 +175,7 @@ body{
 	color: black;
 }
 .col_right hr{
- 	margin-left: 10px;
+ 	margin-left: 1%;
  	color: red;
  }
  .hobbies p{
@@ -190,6 +184,35 @@ body{
 	background-color: #881111;
 	display: inline;
 	font-family: 'Cairo', sans-serif;
- 	font-size: 10px;
- 	margin-left: 10px;
+ 	margin-left: 2%;
 }
+
+@media (max-width: 480px) {
+			.col_md_6_main{
+			 	width: 100%;
+		 	}
+		 	.col_md_4_main{
+			 	width: 100%;
+		 	}
+		 	h1{
+		 		font-size: 5vw;
+		 	}
+		 	h2{
+		 		font-size: 3vw;
+		 	}
+		 	p{
+		 		font-size: 2vw;
+		 	}
+		 	.item_edu span{
+			 	font-size: 2vw;
+			}
+			.item_exp span{
+			 	font-size: 2vw;
+			}
+			.contacto{
+			 	font-size: 2vw;
+			}
+			.contacto span{
+			 	font-size: 2vw;
+			}
+ }
